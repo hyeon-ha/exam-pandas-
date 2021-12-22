@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
 #리소스 변환 콘솔명령 pyrcc5 calculator.qrc -o calculator_rc.py
-form_window = uic.loadUiType('./calculator.ui')[0]
+form_window = uic.loadUiType('D:\work\python\exam_class\exam-pandas-hh\exam_1_25\calculator.ui')[0]
 
 class Exam(QWidget, form_window):
 
